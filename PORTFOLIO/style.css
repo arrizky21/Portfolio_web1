@@ -1,0 +1,164 @@
+body {
+    background: linear-gradient(135deg, #dec9e4 0%, #d562eb 100%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1 {
+    color: #4b7cd1;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+  }
+  p {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px auto;
+    width: 60%;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    border: 5px solid #6186cb;
+    transition: transform 0.3s ease-in-out;
+  }
+  img:hover {
+    transform: scale(1.1);
+    border-color: #7f5b99;
+  }
+  
+  table {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  th,
+  td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  th {
+    background-color: #4a90e2;
+    color: white;
+  }
+  td {
+    background-color: #90a6c7;
+    color: #333;
+  }
+  tr:hover td {
+    background-color: #9fcffc;
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #4a90e2;
+    font-size: 2.5em;
+  }
+  p {
+    text-align: center;
+    font-size: 1.3em;
+    width: 60%;
+    margin: 20px auto;
+    color: #555;
+  }
+  
+  form {
+    width: 60%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    background: linear-gradient(135deg, #4a90e2 0%, #66ccff 100%);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  button[type="submit"]:hover {
+    background: linear-gradient(135deg, #66ccff 0%, #4a90e2 100%);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  button[type="submit"]:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #4a90e2;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  nav a:hover {
+    background-color: #47375d;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #9a2fd3;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+    background-color: #fcb69f;
+    }
+    /* Gaya untuk elemen pesan notifikasi */
+#message {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 10px;
+  }
